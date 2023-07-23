@@ -63,7 +63,7 @@ class CarouselImages extends Component {
                 <ul type="none">
                   <li style={{ marginTop: "1.5rem" }}>
                     <a
-                      href="https://amazonclonefinal.herokuapp.com/"
+                      href="https://amazon-hosted.onrender.com/"
                       target="_blank"
                     >
                       {" "}
@@ -72,17 +72,14 @@ class CarouselImages extends Component {
                   </li>
                   <li style={{ marginTop: "1.5rem" }}>
                     <a
-                      href="https://project123final.000webhostapp.com"
+                      href="https://arindam0208.000webhostapp.com/"
                       target="_blank"
                     >
                       Cova19_Informer ->
                     </a>
                   </li>
                   <li style={{ marginTop: "1.5rem" }}>
-                    <a
-                      href="https://memorica.herokuapp.com/opera"
-                      target="_blank"
-                    >
+                    <a href="https://memorica.onrender.com/" target="_blank">
                       {" "}
                       Memorica ->
                     </a>
