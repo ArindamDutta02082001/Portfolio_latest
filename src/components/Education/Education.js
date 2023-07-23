@@ -64,7 +64,7 @@ class Education extends Component {
                           <p>
                             I completed my Primary Education till class 10th in{" "}
                             <b>Hem Sheela Model School </b> Durgapur . I secured{" "}
-                            <b>9%</b> in my CBSE board exam in the year{" "}
+                            <b>94%</b> in my CBSE board exam in the year{" "}
                             <b>2019</b>.
                           </p>
                         </div>
