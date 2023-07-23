@@ -1,0 +1,8 @@
+.imghov:hover
+{
+    perspective: 200px;
+    transform: scale(1.2,1.2);
+    transition-duration: 1000ms;
+    overflow: hidden;
+    
+}
