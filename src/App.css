@@ -6,6 +6,11 @@
   font-family: 'Quicksand',Arial, sans-serif;
   line-height: 1.3em;
   letter-spacing: 0.04em;
+ 
+
+}
+.main::-webkit-scrollbar {
+  display: none;
 }
 .side{
 width:300px;
@@ -13,7 +18,10 @@ width:300px;
 .main{
   overflow: scroll;
   overflow-x: hidden;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
+
 
 p{
   color: rgba(0, 0, 0, 0.7);

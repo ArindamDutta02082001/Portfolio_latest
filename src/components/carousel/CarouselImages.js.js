@@ -7,8 +7,7 @@ import { GoProject } from "react-icons/go";
 import { FaArrowCircleDown } from "react-icons/fa";
 import Hello from "../images/Hello.jpg";
 import Pencil from "../images/Pencil.jpg";
-import laptop1 from "../images/laptop1.jpg";
-
+import Resu from "../images/ArindamResume.pdf";
 class CarouselImages extends Component {
   render() {
     return (
@@ -22,20 +21,16 @@ class CarouselImages extends Component {
           useKeyboardArrows={true}
           transitionTime={1700}
           emulateTouch
-          showArrows={false}
-          autoPlay
+          showArrows={true}
           showStatus={false}
+          autoPlay
           showThumbs={false}
         >
           <div className={classes.image_container}>
             <img className={classes.image} src={Hello} alt="myImage" />
             <div className={classes.h1}>
               <h1>I'm Arindam Dutta</h1>
-              <a
-                href="https://drive.google.com/file/d/1LkYZZQfR9KiVCW_LObHslALTmoCO5gGX/view?usp=sharing"
-                rel="opener noreferrer"
-                target="_blank"
-              >
+              <a href={Resu} download="Resume_Arindam">
                 Generate CV <FaArrowCircleDown />
               </a>
             </div>
