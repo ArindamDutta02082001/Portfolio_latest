@@ -41,7 +41,7 @@ class Education extends Component {
                           <p>
                             {" "}
                             I completed my Primary Education till class 10th in{" "}
-                            <b>Saint Teresa`s School </b> Makrampur ,Bolpur I
+                            <b>Saint Teresa`s School, </b> Makrampur Bolpur I
                             secured <b>91%</b> in my ICSE board exam in the year{" "}
                             <b>2017</b>.{" "}
                           </p>
@@ -63,7 +63,7 @@ class Education extends Component {
                           <h2>Class XII </h2>
                           <p>
                             I completed my Primary Education till class 10th in{" "}
-                            <b>Hem Sheela Model School </b> Durgapur . I secured{" "}
+                            <b>Hem Sheela Model School,</b> Durgapur . I secured{" "}
                             <b>94%</b> in my CBSE board exam in the year{" "}
                             <b>2019</b>.
                           </p>
@@ -86,13 +86,13 @@ class Education extends Component {
                         <div className={classes.label}>
                           <h2>Under Graduation ( B.Tech )</h2>
                           <p>
-                           
-                          I am doing my Under Graduation{" "}
+                            I have completed my Graduation and received my{" "}
                             <b> Bachelor`s Degree</b> from{" "}
                             <b>Bangalore Institute of Technology </b> with major
                             subjects as <b> Computer Science and Engineering</b>{" "}
-                            with <b>9.0 CGPA</b> till now under the VTU board of
-                            education uptill <b> 2023</b>.{" "}
+                            with <b>8.4 CGPA</b> under the Visvesvaraya
+                            Technological University,
+                            <b>2023</b>.{" "}
                           </p>
                         </div>
                       </article>
@@ -111,7 +111,7 @@ class Education extends Component {
                         >
                           <MdWork />
                         </div>
-                     
+
                         <div className={classes.timeline_entry_inner}>
                           <div
                             className={
