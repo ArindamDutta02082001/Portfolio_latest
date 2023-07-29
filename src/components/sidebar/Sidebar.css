@@ -7,6 +7,11 @@
     background-color:#f2f3f7;
     overflow-y: scroll;
      text-align: center;
+     -ms-overflow-style: none;  /* IE and Edge */
+     scrollbar-width: none;  /* Firefox */
+}
+.sidebar::-webkit-scrollbar {
+  display: none;
 }
 .sidebar > h1 {
     padding-top: 20px;
@@ -39,7 +44,6 @@
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  margin-top: 10px;
 }
 .links{
   text-decoration: none;
@@ -54,7 +58,7 @@
 }
 
 .flip-card-back{
-  margin-top:50px;
+  /* margin-top:50px; */
 }
 .fa-lg{
   text-decoration: none;

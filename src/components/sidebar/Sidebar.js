@@ -1,17 +1,34 @@
 import React, { Component } from "react";
 import "./Sidebar.css";
 import { HashLink as Link } from "react-router-hash-link";
-import { FiExternalLink } from "react-icons/fi";
 import logo from "../images/Arindam.jpg";
 
 class Sidebar extends Component {
   render() {
     return (
       <div className="sidebar">
-        <div style={{ color: "black", fontWeight: "bold" }} className="tagtop">
+        <h1>
+          <Link smooth to="/#start" className="h1_links">
+            Arindam Dutta
+          </Link>
+        </h1>
+        <img src={logo} />
+        <br />
+        <br />
+        <div
+          style={{
+            color: "black",
+            fontWeight: "700",
+            width: "90%",
+            margin: "auto",
+          }}
+          className="tagtop"
+        >
           {" "}
-          # Programmer_Life{" "}
+          SDE Intern at @Opentext | 600+ DSA @GeekforGeeks and LeetCode |
+          Fullstack Developer | CSE Grad '23{" "}
         </div>
+        <br />
         <div style={{ color: "black", fontWeight: "bold" }} className="">
           {" "}
           # Hello_Good_World{" "}
@@ -20,20 +37,19 @@ class Sidebar extends Component {
           {" "}
           # Solve_Problem{" "}
         </div>
-        <h1>
-          <Link smooth to="/#start" className="h1_links">
-            Arindam Dutta
-          </Link>
-        </h1>
-
-        <img src={logo} />
-        <p style={{ color: "black", fontWeight: "bold" }} className="gmail">
+        <p
+          style={{
+            color: "black",
+            fontWeight: "bold",
+          }}
+          className="gmail"
+        >
           <a
             href="https://mail.google.com/mail/u/0/#inbox"
             rel=""
             target="_blank"
           >
-            arindamdutta02082001@gmail.com
+            --- Leave a mail ---
           </a>
         </p>
 
