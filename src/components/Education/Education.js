@@ -15,8 +15,7 @@ class Education extends Component {
           animateIn="fadeInLeft"
           duration={2}
           animateOnce={true}
-          initiallyVisible={true}
-        >
+          initiallyVisible={true}>
           <span className={classes.head}>MY JOURNEY</span>
           <section className={classes.container}>
             <div className={classes.container_content}>
@@ -28,12 +27,10 @@ class Education extends Component {
                       animateIn="fadeInLeft"
                       duration={2.4}
                       animateOnce={true}
-                      initiallyVisible={true}
-                    >
+                      initiallyVisible={true}>
                       <article className={classes.timeline_entry}>
                         <div
-                          className={`${classes.timeline_icon} ${classes.timeline_icon_5}`}
-                        >
+                          className={`${classes.timeline_icon} ${classes.timeline_icon_5}`}>
                           <MdWork />
                         </div>
                         <div className={classes.label}>
@@ -53,8 +50,7 @@ class Education extends Component {
                       animateIn="fadeInLeft"
                       duration={2.4}
                       animateOnce={true}
-                      initiallyVisible={true}
-                    >
+                      initiallyVisible={true}>
                       <article className={classes.timeline_entry}>
                         <div className={classes.timeline_icon}>
                           <MdSchool />
@@ -75,12 +71,10 @@ class Education extends Component {
                       animateIn="fadeInLeft"
                       duration={2.4}
                       animateOnce={true}
-                      initiallyVisible={true}
-                    >
+                      initiallyVisible={true}>
                       <article className={classes.timeline_entry}>
                         <div
-                          className={`${classes.timeline_icon} ${classes.timeline_icon_2}`}
-                        >
+                          className={`${classes.timeline_icon} ${classes.timeline_icon_2}`}>
                           <FaSchool />
                         </div>
                         <div className={classes.label}>
@@ -103,12 +97,10 @@ class Education extends Component {
                       animateIn="fadeInLeft"
                       duration={2.4}
                       animateOnce={true}
-                      initiallyVisible={true}
-                    >
+                      initiallyVisible={true}>
                       <article>
                         <div
-                          className={`${classes.timeline_icon} ${classes.timeline_icon_4}`}
-                        >
+                          className={`${classes.timeline_icon} ${classes.timeline_icon_4}`}>
                           <MdWork />
                         </div>
 
@@ -116,8 +108,75 @@ class Education extends Component {
                           <div
                             className={
                               classes.timeline_icon_3 || classes.color_none
-                            }
-                          ></div>
+                            }></div>
+                        </div>
+                        <div className={classes.label}>
+                          <h2>Opentext India Ltd.</h2>
+                          <p>
+                            I have worked at <b>Opentext</b> as{" "}
+                            <b>6 months SDE Intern</b> where my primary role was
+                            invloved in developing a{" "}
+                            <b>
+                              Saas based Identity Lifecycle Management Product
+                            </b>{" "}
+                            for on-off prem cloud customers. The tenure of my
+                            work there was from{" "}
+                            <b>February `23 to August `23.</b>
+                          </p>
+                        </div>
+                      </article>
+                    </ScrollAnimation>
+                    <ScrollAnimation
+                      offset={0}
+                      animateIn="fadeInLeft"
+                      duration={2.4}
+                      animateOnce={true}
+                      initiallyVisible={true}>
+                      <article>
+                        <div
+                          className={`${classes.timeline_icon} ${classes.timeline_icon_4}`}>
+                          <MdWork />
+                        </div>
+
+                        <div className={classes.timeline_entry_inner}></div>
+                        <div className={classes.label}>
+                          <h2>Amazon</h2>
+                          <p>
+                            I worked in <b>Amazon</b> as an <b>L3 Engineer I</b>{" "}
+                            , for 2 months starting from{" "}
+                            <b>October `23 to December `23</b> with the{" "}
+                            <b>SEND</b> team for{" "}
+                            <b>Cross Border Origin Shipping system .</b>
+                          </p>
+                        </div>
+                      </article>
+                    </ScrollAnimation>
+                    <ScrollAnimation
+                      offset={0}
+                      animateIn="fadeInLeft"
+                      duration={2.4}
+                      animateOnce={true}
+                      initiallyVisible={true}>
+                      <article>
+                        <div
+                          className={`${classes.timeline_icon} ${classes.timeline_icon_4}`}>
+                          <MdWork />
+                        </div>
+
+                        <div className={classes.timeline_entry_inner}>
+                          <div
+                            className={
+                              classes.timeline_icon_3 || classes.color_none
+                            }></div>
+                        </div>
+                        <div className={classes.label}>
+                          <h2>
+                            Bosch Global Software Technologies Private Limited
+                          </h2>
+                          <p>
+                            Currently working as a{" "}
+                            <b>Associate Software Engineer</b> at BGSW Ltd.
+                          </p>
                         </div>
                       </article>
                     </ScrollAnimation>

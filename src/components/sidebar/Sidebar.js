@@ -12,7 +12,7 @@ class Sidebar extends Component {
             Arindam Dutta
           </Link>
         </h1>
-        <img src={logo} />
+        <img src={logo} alt=""/>
         <br />
         <br />
         <div
@@ -22,10 +22,9 @@ class Sidebar extends Component {
             width: "90%",
             margin: "auto",
           }}
-          className="tagtop"
-        >
+          className="tagtop">
           {" "}
-          SDE Intern at @Opentext | 600+ DSA @GeekforGeeks and LeetCode |
+          Assc. Software Engineer @Bosch | Ex-Amazon , Ex-Opentext | 600+ DSA @GeekforGeeks and LeetCode |
           Fullstack Developer | CSE Grad '23{" "}
         </div>
         <br />
@@ -42,13 +41,11 @@ class Sidebar extends Component {
             color: "black",
             fontWeight: "bold",
           }}
-          className="gmail"
-        >
+          className="gmail">
           <a
             href="https://mail.google.com/mail/u/0/#inbox"
-            rel=""
-            target="_blank"
-          >
+            rel="noopener noreferrer"
+            target="_blank">
             --- Leave a mail ---
           </a>
         </p>
@@ -60,16 +57,24 @@ class Sidebar extends Component {
             </Link>
           </li>
           <li className="sidebar-nav-items">
-            <Link smooth to="/#education" className="links">
+            <Link
+              smooth
+              to="/#education"
+              rel="noopener noreferrer"
+              className="links">
               Education
             </Link>
           </li>
           <li className="sidebar-nav-items">
-            <Link smooth to="/#interest" className="links">
+            <Link
+              smooth
+              to="/#interest"
+              rel="noopener noreferrer"
+              className="links">
               Interest
             </Link>
           </li>
-          {/* <li className="sidebar-nav-items"><a href="http://www.bloggingpeek.com" target="_blank" rel="opener noreferrer" className="links"> Blog<FiExternalLink/></a></li> */}
+          {/* <li className="sidebar-nav-items"><a href="http://www.bloggingpeek.com" target="_blank" rel="noopener noreferrer" className="links"> Blog<FiExternalLink/></a></li> */}
         </ul>
 
         <div className="flip-card-back">
@@ -78,46 +83,41 @@ class Sidebar extends Component {
               {" "}
               <a
                 href="https://github.com/ArindamDutta02082001"
-                rel="opener noreferrer"
+                rel="noopener noreferrer"
                 target="_blank"
-                className="fa fas fa-github fa-lg"
-              ></a>
+                className="fa fas fa-github fa-lg"></a>
             </li>
             <li className="sidebar-nav-icons">
               <a
                 href="https://www.linkedin.com/in/duttaatwork/"
-                rel="opener noreferrer"
+                rel="noopener noreferrer"
                 target="_blank"
-                className="fa fas fa-linkedin fa-lg"
-              ></a>
+                className="fa fas fa-linkedin fa-lg"></a>
             </li>
 
             <li className="sidebar-nav-icons">
               {" "}
               <a
                 href="https://www.instagram.com/arindam_282/"
-                rel="opener noreferrer"
+                rel="noopener noreferrer"
                 target="_blank"
-                className="fa fas fa-instagram fa-lg"
-              ></a>
+                className="fa fas fa-instagram fa-lg"></a>
             </li>
             <li className="sidebar-nav-icons">
               {" "}
               <a
                 href="https://mail.google.com/mail/u/0/#inbox"
-                rel="opener noreferrer"
+                rel="noopener noreferrer"
                 target="_blank"
-                className="fa fas fa-envelope fa-lg"
-              ></a>
+                className="fa fas fa-envelope fa-lg"></a>
             </li>
             <li className="sidebar-nav-icons">
               {" "}
               <a
                 href="https://www.facebook.com/profile.php?id=100008298517101"
-                rel="opener noreferrer"
+                rel="noopener noreferrer"
                 target="_blank"
-                className="fa fas fa-facebook fa-lg"
-              ></a>
+                className="fa fas fa-facebook fa-lg"></a>
             </li>
           </ul>
         </div>

@@ -7,7 +7,7 @@ import { GoProject } from "react-icons/go";
 import { FaArrowCircleDown } from "react-icons/fa";
 import Hello from "../images/Hello.jpg";
 import Pencil from "../images/Pencil.jpg";
-import Resu from "../images/ArindamResume.pdf";
+import Resu from "../images/Arindam_Dutta_Resume_23.pdf";
 class CarouselImages extends Component {
   render() {
     return (
@@ -24,13 +24,12 @@ class CarouselImages extends Component {
           showArrows={true}
           showStatus={false}
           autoPlay
-          showThumbs={false}
-        >
+          showThumbs={false}>
           <div className={classes.image_container}>
             <img className={classes.image} src={Hello} alt="myImage" />
             <div className={classes.h1}>
               <h1>I'm Arindam Dutta</h1>
-              <a href={Resu} download="Resume_Arindam">
+              <a href={Resu} download="Resume_Arindam_pdf">
                 Generate CV <FaArrowCircleDown />
               </a>
             </div>
@@ -42,9 +41,8 @@ class CarouselImages extends Component {
               <h1>THINGS!!</h1>
               <a
                 href="https://github.com/ArindamDutta02082001"
-                rel="opener noreferrer"
-                target="_blank"
-              >
+                rel="noopener noreferrer"
+                target="_blank">
                 All Projects <GoProject />
               </a>
               <div
@@ -53,14 +51,13 @@ class CarouselImages extends Component {
                   fontSize: "2rem",
                   color: "white",
                   textAlign: "left",
-                }}
-              >
+                }}>
                 <ul type="none">
                   <li style={{ marginTop: "1.5rem" }}>
                     <a
                       href="https://amazon-hosted.onrender.com/"
-                      target="_blank"
-                    >
+                      rel="noopener noreferrer"
+                      target="_blank">
                       {" "}
                       Amazonia Website ->
                     </a>
@@ -68,13 +65,16 @@ class CarouselImages extends Component {
                   <li style={{ marginTop: "1.5rem" }}>
                     <a
                       href="https://arindam0208.000webhostapp.com/"
-                      target="_blank"
-                    >
+                      rel="noopener noreferrer"
+                      target="_blank">
                       Cova19_Informer ->
                     </a>
                   </li>
                   <li style={{ marginTop: "1.5rem" }}>
-                    <a href="https://memorica.onrender.com/" target="_blank">
+                    <a
+                      href="https://memorica.onrender.com/"
+                      target="_blank"
+                      rel="noopener noreferrer">
                       {" "}
                       Memorica ->
                     </a>
