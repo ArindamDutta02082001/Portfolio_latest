@@ -7,32 +7,65 @@ class Interest extends Component {
   render() {
     return (
       <div className={classes.box} id="interest">
-        <ScrollAnimation offset={0} animateIn="fadeInLeft" duration={2.4} animateOnce={true} initiallyVisible={true}>
+        <ScrollAnimation
+          offset={0}
+          animateIn="fadeInLeft"
+          duration={2.4}
+          animateOnce={true}
+          initiallyVisible={true}>
           <span className={classes.head}>WHAT I DO?</span>
           <h2 className={classes.heading}>HERE ARE SOME OF MY EXPERTISE</h2>
           <div className={classes.Interest}>
-            <ScrollAnimation offset={0} animateIn="fadeInLeft" duration={2.4} animateOnce={true} initiallyVisible={true}>
+            <ScrollAnimation
+              offset={0}
+              animateIn="fadeInLeft"
+              duration={2.4}
+              animateOnce={true}
+              initiallyVisible={true}>
               <div className={classes.web}>
                 <h3>Problem Solving</h3>
-                <p>I also have knowledge on development and have experience in doing DSA problems using C++. I solved questions and problems involving different types and algorithm. </p>
+                <p>
+                  I also have knowledge on development as well as problem
+                  solving in DSA using Cpp and Java. Have practised problems
+                  involving different levels of difficulty and algorithm.{" "}
+                </p>
               </div>
             </ScrollAnimation>
-            <ScrollAnimation offset={0} animateIn="fadeInLeft" duration={2.4} animateOnce={true} initiallyVisible={true}>
+            <ScrollAnimation
+              offset={0}
+              animateIn="fadeInLeft"
+              duration={2.4}
+              animateOnce={true}
+              initiallyVisible={true}>
               <div className={classes.app}>
                 <h3>Web Develpoment</h3>
-                <p>I am a full stack web developer(MERN) and build websites using HTML, CSS, Javascript, ReactJs.<br /> I have also good grasp on Node and NoSQL(MongoDb)</p>
+                <p>
+                  I am a fullstack developer and had profiency in building
+                  websites using various technologies including ReactJS, Angular
+                  , Nodejs, Expressjs , REST / SOAP , MySQl  MongDB , Kafka etc .
+                  Also had a grasp over various version control systems like git.
+                </p>
               </div>
             </ScrollAnimation>
-            <ScrollAnimation offset={0} animateIn="fadeInLeft" duration={2.4} animateOnce={true} initiallyVisible={true}>
+            <ScrollAnimation
+              offset={0}
+              animateIn="fadeInLeft"
+              duration={2.4}
+              animateOnce={true}
+              initiallyVisible={true}>
               <div className={classes.other}>
                 <h3>Other's Interest</h3>
-                <p>I also have decent hand in developing UI designs using Figma <br /> Github are my other fields of interest. Currently, I am investing my free time in developing some projects including MERN technologies </p>
+                <p>
+                  I have got oppurtunities in contributing to various other projects and open sources{" "}
+                  <br /> Also my hobbies include reading and undertanding other`s contributions , go through new technogies & go through codes. Currently, I am
+                  invested into the backend systems and microservices & springboot . Also has keen interest in AI/ML.
+                </p>
               </div>
             </ScrollAnimation>
           </div>
         </ScrollAnimation>
       </div>
-    )
+    );
   }
 }
 
