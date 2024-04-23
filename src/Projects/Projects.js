@@ -20,6 +20,11 @@ import Covid19 from "../../src/covid19.jpg";
 export default function App() {
   return (
     <>
+      <span className={classes.head}>Tech Stacks</span>
+      <h2 className={classes.heading} id="Project_scroll">
+        Currently Exploring : Scalable backend system in Springboot with Microservices , kafka , gRPC etc ...
+      </h2>
+
       <span className={classes.head}>Projects</span>
       <h2 className={classes.heading} id="Project_scroll">
         All Projects
@@ -40,8 +45,8 @@ export default function App() {
                 <a
                   href="https://amazon-hosted.onrender.com/"
                   target="_blank"
-                  style={{ textDecoration: "none" }}
-                >
+                  rel="noopener noreferrer"
+                  style={{ textDecoration: "none" }}>
                   Amazon 2.0
                 </a>
               </MDBCardTitle>
@@ -58,8 +63,8 @@ export default function App() {
                 <a
                   href="https://github.com/ArindamDutta02082001/Amazon_Clone_final"
                   target="_blank"
-                  style={{ textDecoration: "underline" }}
-                >
+                  rel="noopener noreferrer"
+                  style={{ textDecoration: "underline" }}>
                   Github
                 </a>
               </MDBCardText>
@@ -80,8 +85,8 @@ export default function App() {
                 <a
                   href="https://arindam0208.000webhostapp.com/"
                   target="_blank"
-                  style={{ textDecoration: "none" }}
-                >
+                  rel="noopener noreferrer"
+                  style={{ textDecoration: "none" }}>
                   Cova19_Informer
                 </a>
               </MDBCardTitle>
@@ -97,8 +102,8 @@ export default function App() {
                 <a
                   href="https://github.com/ArindamDutta02082001/Cova19_Informer"
                   target="_blank"
-                  style={{ textDecoration: "underline" }}
-                >
+                  rel="noopener noreferrer"
+                  style={{ textDecoration: "underline" }}>
                   Github
                 </a>
               </MDBCardText>
@@ -119,8 +124,8 @@ export default function App() {
                 <a
                   href="https://memorica.onrender.com/"
                   target="_blank"
-                  style={{ textDecoration: "none" }}
-                >
+                  rel="noopener noreferrer"
+                  style={{ textDecoration: "none" }}>
                   Memorica
                 </a>
               </MDBCardTitle>
@@ -135,8 +140,8 @@ export default function App() {
                 <a
                   href="https://github.com/ArindamDutta02082001/Memorica_final"
                   target="_blank"
-                  style={{ textDecoration: "underline" }}
-                >
+                  rel="noopener noreferrer"
+                  style={{ textDecoration: "underline" }}>
                   Github
                 </a>
               </MDBCardText>
@@ -159,8 +164,8 @@ export default function App() {
                 <a
                   href="https://interiordesignfinal.netlify.app/"
                   target="_blank"
-                  style={{ textDecoration: "none" }}
-                >
+                  rel="noopener noreferrer"
+                  style={{ textDecoration: "none" }}>
                   G. Interiors
                 </a>
               </MDBCardTitle>
@@ -172,8 +177,8 @@ export default function App() {
                 <a
                   href="https://github.com/ArindamDutta02082001/ArindamDutta02082001.github.io/tree/main/Interior_Design"
                   target="_blank"
-                  style={{ textDecoration: "underline" }}
-                >
+                  rel="noopener noreferrer"
+                  style={{ textDecoration: "underline" }}>
                   Github
                 </a>
               </MDBCardText>
@@ -193,8 +198,8 @@ export default function App() {
                 <a
                   href="https://tatkalweatherfinal.netlify.app"
                   target="_blank"
-                  style={{ textDecoration: "none" }}
-                >
+                  rel="noopener noreferrer"
+                  style={{ textDecoration: "none" }}>
                   Tatkal Weather Information
                 </a>
               </MDBCardTitle>
@@ -208,8 +213,8 @@ export default function App() {
                 <a
                   href="https://github.com/ArindamDutta02082001/TatkalWeather"
                   target="_blank"
-                  style={{ textDecoration: "underline" }}
-                >
+                  rel="noopener noreferrer"
+                  style={{ textDecoration: "underline" }}>
                   Github
                 </a>
               </MDBCardText>
@@ -230,8 +235,8 @@ export default function App() {
                 <a
                   href="https://notesfinal.netlify.app"
                   target="_blank"
-                  style={{ textDecoration: "none" }}
-                >
+                  rel="noopener noreferrer"
+                  style={{ textDecoration: "none" }}>
                   My Notes
                 </a>
               </MDBCardTitle>
@@ -247,8 +252,8 @@ export default function App() {
                 <a
                   href="https://github.com/ArindamDutta02082001/Notes_final"
                   target="_blank"
-                  style={{ textDecoration: "underline" }}
-                >
+                  rel="noopener noreferrer"
+                  style={{ textDecoration: "underline" }}>
                   Github
                 </a>
               </MDBCardText>

@@ -12,8 +12,7 @@ class About extends Component {
           animateIn="fadeInLeft"
           duration={2.4}
           animateOnce={true}
-          initiallyVisible={true}
-        >
+          initiallyVisible={true}>
           <span className={classes.head}>ABOUT ME</span>
           <h2 className={classes.heading}>Who Am I?</h2>
           <div className={classes.About}>
@@ -32,13 +31,13 @@ class About extends Component {
               </b>
               , Bangalore in 2023. I am eagerly exploring various avenues and
               openings to discover a role that aligns with my skills, passions,
-              and aspirations. My primary goal is to secure a{" "}
+              and aspirations. My primary goal is to harness new{" "}
               <b>
-                <i>job opportunity</i>
+                <i>opportunities</i>
               </b>
               that not only offers professional growth and development but also
               provides a sense of purpose and fulfillment in contributing to the
-              success of the organization
+              success of an organization
             </p>
             <p>
               As a Software Engineer with a strong passion for problem-solving
@@ -60,6 +59,21 @@ class About extends Component {
               about data binding , API Intregration with the backend services.
             </p>
             <p>
+              Also had an oppurtunity to work at{" "}
+              <b>
+                <i>Amazon (Bangalore) </i>
+              </b>{" "}
+              as <b>Engineer I</b> , where my responsibilty involved in
+              developing and implementing the features for{" "}
+              <b>Cross Border Origin Shipping </b> system with the SDE members
+              as required by the <b>Carriers</b> .Involved in onboarding of new
+              carriers and
+              <b> resolving issues</b> of various levels in Beta, Gamma and
+              production environment. Implemented <b>Notiﬁcation System </b> for
+              the Sellers and was involved in understanding of{" "}
+              <b>Code Design Patterns</b> of the existing production system.
+            </p>
+            <p>
               Alongside my expertise in frontend and backend technologies, I
               have honed my proficiency in DSA, practised{" "}
               <b>
@@ -70,11 +84,17 @@ class About extends Component {
               <b>Amazon2.0 , Memorica , Cova19_Informer, My Notes</b> during my
               college time using{" "}
               <b>
-                <i>Reactjs , Bootstrap5, HTML , CSS , Javascript</i>
+                <i>
+                  Reactjs, Angular, Bootstrap5, ngPrime , MaterialUI , HTML ,
+                  CSS , Javascript , TypeScript
+                </i>
               </b>
               in the frontend and{" "}
               <b>
-                <i>Nodejs, MongoDB, Express and SQL</i>
+                <i>
+                  Nodejs, JWT,MongoDB, MySQL ,gRPC ,Express , SpringBoot , Hibernate ,
+                  JDPC , Redis , Kafka and Microservices
+                </i>
               </b>{" "}
               in the backend and database technologies.
             </p>
