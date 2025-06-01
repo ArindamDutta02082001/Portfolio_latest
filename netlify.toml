@@ -1,0 +1,8 @@
+[build]
+  # Your build command, adjust if needed
+  command = "npm run build"
+  # Your publish directory, adjust to your build output folder
+  publish = "build"
+
+[build.environment]
+  NODE_VERSION = "16"
