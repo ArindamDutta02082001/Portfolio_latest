@@ -175,7 +175,7 @@ class Education extends Component {
                           </h2>
                           <p>
                             Currently working as a{" "}
-                            <b>Associate Software Engineer</b> at BGSW Ltd.
+                            <b>Software Engineer</b> at Robert Bosch.
                           </p>
                         </div>
                       </article>

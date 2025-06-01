@@ -6,3 +6,52 @@
     overflow: hidden;
     
 }
+
+.tech-card {
+    width: 90%;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 1.2rem;
+    background: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    box-sizing: border-box;
+  }
+  
+  .tech-title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #222;
+  }
+  
+  .tech-subtitle {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    color: #555;
+  }
+  
+  .tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .tech-block {
+    background: #f5f7fa;
+    border-radius: 0.8rem;
+    padding: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  }
+  
+  .tech-block h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .tech-block p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #555;
+  }
+  

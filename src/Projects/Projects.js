@@ -20,10 +20,47 @@ import Covid19 from "../../src/covid19.jpg";
 export default function App() {
   return (
     <>
-      <span className={classes.head}>Tech Stacks</span>
+      {/* <span className={classes.head}>Tech Stacks</span>
       <h2 className={classes.heading} id="Project_scroll">
         Currently Exploring : Scalable backend system in Springboot with Microservices , kafka , gRPC etc ...
+      </h2> */}
+
+<span className={classes.head} id="project">WHAT DO I KNOW</span>
+      <h2 className={classes.heading} id="Project_scroll">
+       Tech Stacks
       </h2>
+<div className="tech-card">
+      <p className="tech-subtitle">
+        Currently Exploring: <strong>Spring Boot</strong>, <strong>Microservices</strong>, <strong>LLD</strong>, <strong>AI/ML</strong>, <strong>& Cloud Technologies</strong> etc.
+      </p>
+
+      <div className="tech-grid">
+        <div className="tech-block">
+          <h4>Languages</h4>
+          <p>Java, C++, TypeScript, JavaScript , Python</p>
+        </div>
+        <div className="tech-block">
+          <h4>Frontend</h4>
+          <p>Angular, ReactJS</p>
+        </div>
+        <div className="tech-block">
+          <h4>Backend</h4>
+          <p>Spring Boot, Node.js, Microservices, gRPC , Kafka, Redis , Grafana</p>
+        </div>
+        <div className="tech-block">
+          <h4>Databases</h4>
+          <p>MongoDB, SQL</p>
+        </div>
+        <div className="tech-block">
+          <h4>Tools & DevOps</h4>
+          <p>Git, CI/CD (GitHub Actions / Jenkins)</p>
+        </div>
+        <div className="tech-block">
+          <h4>Other Skills</h4>
+          <p>Problem Solving, System Design, API Integration</p>
+        </div>
+      </div>
+    </div>
 
       <span className={classes.head}>Projects</span>
       <h2 className={classes.heading} id="Project_scroll">

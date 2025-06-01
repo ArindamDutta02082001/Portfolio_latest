@@ -26,7 +26,7 @@ class Interest extends Component {
                 <h3>Problem Solving</h3>
                 <p>
                   I also have knowledge on development as well as problem
-                  solving in DSA using Cpp and Java. Have practised problems
+                  solving in DSA using C++ and Java. Have practised problems
                   involving different levels of difficulty and algorithm.{" "}
                 </p>
               </div>
@@ -41,9 +41,9 @@ class Interest extends Component {
                 <h3>Web Develpoment</h3>
                 <p>
                   I am a fullstack developer and had profiency in building
-                  websites using various technologies including ReactJS, Angular
-                  , Nodejs, Expressjs , REST / SOAP , MySQl  MongDB , Kafka etc .
-                  Also had a grasp over various version control systems like git.
+                  stuufs using various technologies including ReactJs, Angular
+                  , Nodejs, MySQl  MongDB , Kafka etc .
+                  Also had a grasp over various version control systems like git. Automation with Jenkins and CICD
                 </p>
               </div>
             </ScrollAnimation>
@@ -58,7 +58,7 @@ class Interest extends Component {
                 <p>
                   I have got oppurtunities in contributing to various other projects and open sources{" "}
                   <br /> Also my hobbies include reading and undertanding other`s contributions , go through new technogies & go through codes. Currently, I am
-                  invested into the backend systems and microservices & springboot . Also has keen interest in AI/ML.
+                  invested into the backend systems and distributed systems . Currently exploring cloud tech & AI/ML.
                 </p>
               </div>
             </ScrollAnimation>
