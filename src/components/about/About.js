@@ -95,14 +95,14 @@ class About extends Component {
               college time using{" "}
               <b>
                 <i>
-                  Reactjs, Angular, TypeScript
+                  Reactjs, Angular, TypeScript 
                 </i>
               </b>
               in the frontend and{" "}
               <b>
                 <i>
-                  Nodejs, JWT,MongoDB, MySQL ,gRPC, SpringBoot , Hibernate ,
-                  JDBC , Redis , Kafka and Microservices
+                  Nodejs, JWT, Oauth2.0, MongoDB, MySQL ,gRPC, SpringBoot , Hibernate ,
+                 Redis , Kafka and Microservices
                 </i>
               </b>{" "}
               in the backend and database technologies.
