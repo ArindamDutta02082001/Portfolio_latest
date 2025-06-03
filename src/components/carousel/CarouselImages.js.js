@@ -7,7 +7,7 @@ import { GoProject } from "react-icons/go";
 import { FaArrowCircleDown } from "react-icons/fa";
 import Hello from "../images/Hello.jpg";
 import Pencil from "../images/Pencil.jpg";
-import Resu from "../images/Arindam_Dutta_Resume_23.pdf";
+import Resu from "../images/Arindam_Dutta_R25.pdf";
 class CarouselImages extends Component {
   render() {
     return (
@@ -30,7 +30,7 @@ class CarouselImages extends Component {
             <div className={classes.h1}>
               <h1>I'm Arindam Dutta</h1>
               <a href={Resu} download="Resume_Arindam_pdf">
-                Generate CV <FaArrowCircleDown />
+                Download CV <FaArrowCircleDown />
               </a>
             </div>
           </div>
