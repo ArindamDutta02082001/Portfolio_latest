@@ -1,95 +1,156 @@
-@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
-.image{
-  height:734px;
+.carousel_container {
+  overflow: hidden;
+  background: #171c39;
 }
 
-.h1{
-    margin:50px;
-    font-size: 2rem;
-    font-family: 'Permanent Marker', cursive;
-    animation-name: text;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
-    position: relative;
-    top:-270px;
-    left:10px;
-    color:rgba(255, 255,255, 0.8)
-  }
-  
-  .h2{
-    margin:50px;
-    font-size: 2rem;
-    font-family: 'Permanent Marker', cursive;
-    animation-name: text;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
-    position: relative;
-    top:-470px;
-    left:-20px;
-    text-align: right;
-    color:black;
+.carousel {
+  position: relative;
+}
+
+.image_container {
+  position: relative;
+  height: min(660px, 72vh);
+  min-height: 480px;
+  overflow: hidden;
+  background: #171c39;
+  text-align: left;
+}
+
+.image_container::after {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(12, 17, 43, 0.82), rgba(20, 23, 55, 0.18) 78%),
+    linear-gradient(0deg, rgba(15, 20, 44, 0.25), transparent 50%);
+  content: "";
+  pointer-events: none;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  opacity: 0.9;
+}
+
+.h1,
+.h2 {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: clamp(32px, 8vw, 110px);
+  width: min(650px, 76%);
+  margin: 0;
+  transform: translateY(-50%);
+  color: #fff;
+  text-align: left;
+  animation: rise-in 700ms ease-out both;
+}
+
+.h1 h1,
+.h2 h1 {
+  margin: 0 0 10px;
+  color: #fff;
+  font-family: 'Manrope', 'DM Sans', sans-serif;
+  font-size: clamp(38px, 6vw, 76px);
+  font-weight: 800;
+  letter-spacing: -0.055em;
+  line-height: 1.04;
+  text-shadow: 0 4px 30px rgba(8, 11, 34, 0.25);
+}
+
+.h2 h1:first-child {
+  color: #d7d7ff;
+  font-size: clamp(30px, 4.7vw, 58px);
+}
+
+.h1 > a,
+.h2 > a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 24px;
+  padding: 13px 22px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 999px;
+  background: linear-gradient(110deg, #716df6, #8b63e8);
+  box-shadow: 0 12px 30px rgba(45, 37, 143, 0.32);
+  color: #fff;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.h1 > a:hover,
+.h2 > a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 34px rgba(45, 37, 143, 0.42);
+  color: #fff;
+}
+
+.h2 > div {
+  margin-top: 24px !important;
+  font-size: 15px !important;
+}
+
+.h2 ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+}
+
+.h2 li {
+  margin: 0 !important;
+  list-style: none;
+}
+
+.h2 li a {
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.h2 li a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+@keyframes rise-in {
+  from { opacity: 0; transform: translateY(calc(-50% + 16px)); }
+  to { opacity: 1; transform: translateY(-50%); }
+}
+
+@media (max-width: 700px) {
+  .image_container {
+    height: 560px;
+    min-height: 430px;
   }
 
-  .h1 a{
-    color:rgba(255, 255,255, 0.8);
-    width: 170px;
-    margin:50px;
-    font-size: 1.1rem;
-    font-family: 'Permanent Marker', cursive;
-    animation-name: text;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
-    position: relative;
-    top:20px;
-    left:-7px;
-    color:rgba(255, 255,255, 0.8);
-    padding: 11px 24px;
-    box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
-    border-radius:22px;
-    background-image:linear-gradient(to left,rgba(75,19,79,0.8) ,rgba(201,75,75,0.6));
-  }
-  .h2 a{
-    color:rgba(255, 255,255, 0.8);
-    width: 170px;
-    margin:50px;
-    font-size: 1.1rem;
-    font-family: 'Permanent Marker', cursive;
-    animation-name: text;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
-    position: relative;
-    top:20px;
-    left:-7px;
-    color:rgba(255, 255,255, 0.8);
-    padding: 11px 24px;
-    box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
-    border-radius:22px;
-    background-image:linear-gradient(to left,rgba(75,19,79,0.8) ,rgba(201,75,75,0.6));
+  .h1,
+  .h2 {
+    left: 28px;
+    width: calc(100% - 56px);
   }
 
-  @keyframes text{
-    from{transform: translateY(20px);
-    opacity: 0.2;}
-    to{opacity: 1;}
+  .h2 > div {
+    margin-top: 12px !important;
   }
-  
-  @media (max-width:400px){
-    .image{
-      height:600px;
-    }
-    .h1 a{
-      width: 120px;
-      font-size: 0.8rem;
-      margin:20px;
-      padding: 9px 18px;
-    }
-    .h2 a{
-      width: 120px;
-      font-size: 0.8rem;
-      margin:20px;
-      padding: 9px 18px;
-      position: relative;
-    top:20px;
-    left:17px;
-    }
+
+  .h2 li a {
+    font-size: 12px;
   }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .h1,
+  .h2 {
+    animation: none;
+  }
+}

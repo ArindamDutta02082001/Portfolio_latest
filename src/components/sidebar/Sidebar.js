@@ -23,9 +23,8 @@ class Sidebar extends Component {
             margin: "auto",
           }}
           className="tagtop">
-          {" "}
-          SWE @Bosch Ex-@Amazon @Opentext | 600+ DSA Problems |
-          Fullstack Developer | CSE Grad 2023{" "}
+          SWE @ Target | Ex-Bosch, Salesforce, Amazon & OpenText | 600+ DSA
+          Problems | Full-Stack Engineer | CSE '23
         </div>
         <br />
         <div style={{ color: "black", fontWeight: "bold" }} className="">
@@ -112,7 +111,7 @@ class Sidebar extends Component {
     </li>
     <li className="sidebar-nav-icons">
       <a
-        href="https://www.instagram.com/arindam_282/"
+        href="https://www.instagram.com/arin____dum/"
         rel="noopener noreferrer"
         target="_blank"
         aria-label="Instagram"

@@ -3,21 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.6.1",
     "animate.css": "^3.7.2",
     "gh-pages": "^2.2.0",
     "mdb-react-ui-kit": "^4.1.0",
-    "react": "^16.12.0",
+    "react": "^18.3.1",
     "react-animate-on-scroll": "^2.1.5",
-    "react-dom": "^16.12.0",
+    "react-dom": "^18.3.1",
     "react-icons": "^3.11.0",
     "react-responsive-carousel": "^3.1.51",
     "react-router-dom": "^5.1.2",
     "react-router-hash-link": "^1.2.2",
-    "react-scripts": "3.3.0",
-    "react-scrollable-anchor": "^0.6.1"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -41,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "ajv": "^8.20.0"
   }
 }

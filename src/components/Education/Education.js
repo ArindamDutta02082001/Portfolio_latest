@@ -112,17 +112,11 @@ class Education extends Component {
                         </div>
                         <div className={classes.label}>
                           <h2>Opentext India Ltd.</h2>
-                          <p>
-                            I have worked at <b>Opentext</b> as{" "}
-                            <b>6 months SDE Intern</b> where my primary role was
-                            invloved in developing a{" "}
-                            <b>
-                              Saas based Identity Lifecycle Management Product
-                            </b>{" "}
-                            for on-off prem cloud customers. The tenure of my
-                            work there was from{" "}
-                            <b>February `23 to August `23.</b>
-                          </p>
+                          <ul>
+                            <li>Completed a six-month SDE internship (February–August 2023) on an Identity Lifecycle Management product.</li>
+                            <li>Built dashboard and driver-configuration features using Angular and TypeScript, backed by Java and Spring Boot.</li>
+                            <li>Integrated frontend workflows with backend APIs and improved data binding across product modules.</li>
+                          </ul>
                         </div>
                       </article>
                     </ScrollAnimation>
@@ -141,13 +135,11 @@ class Education extends Component {
                         <div className={classes.timeline_entry_inner}></div>
                         <div className={classes.label}>
                           <h2>Amazon</h2>
-                          <p>
-                            I worked in <b>Amazon</b> as an <b>L3 Engineer I</b>{" "}
-                            , for 2 months starting from{" "}
-                            <b>October `23 to December `23</b> with the{" "}
-                            <b>SEND</b> team for{" "}
-                            <b>Cross Border Origin Shipping system .</b>
-                          </p>
+                          <ul>
+                            <li>Worked as an L3 Engineer I with the SEND team on Cross Border Origin Shipping (October–December 2023).</li>
+                            <li>Supported carrier onboarding and resolved issues across beta, gamma, and production environments.</li>
+                            <li>Delivered seller notification features and collaborated with SDEs on production improvements.</li>
+                          </ul>
                         </div>
                       </article>
                     </ScrollAnimation>
@@ -162,21 +154,65 @@ class Education extends Component {
                           className={`${classes.timeline_icon} ${classes.timeline_icon_4}`}>
                           <MdWork />
                         </div>
-
                         <div className={classes.timeline_entry_inner}>
-                          <div
-                            className={
-                              classes.timeline_icon_3 || classes.color_none
-                            }></div>
+                          <div className={classes.timeline_icon_3 || classes.color_none}></div>
                         </div>
                         <div className={classes.label}>
-                          <h2>
-                            Bosch Global Software Technologies Private Limited
-                          </h2>
-                          <p>
-                            Currently working as a{" "}
-                            <b>Software Engineer</b> at Robert Bosch.
-                          </p>
+                          <h2>Bosch Global Software Technologies</h2>
+                          <ul>
+                            <li>Built Spring Boot services for 30K+ users with 99% uptime; optimized data access and asynchronous processing to bring client latency to 90 ms.</li>
+                            <li>Secured 60+ REST APIs with Spring Security, LDAP, OAuth2, and JWT; modernized Java 8 applications to Java 17 and Spring Boot 3.</li>
+                            <li>Containerized services for Azure/Jenkins delivery and built a C# log tool processing 5 TB of data, improving log efficiency by 30%.</li>
+                            <li>Cut Jenkins builds from 25 to 5 minutes and raised test coverage from 68% to 82% with parallel execution, xUnit, and SonarQube.</li>
+                          </ul>
+                        </div>
+                      </article>
+                    </ScrollAnimation>
+                    <ScrollAnimation
+                      offset={0}
+                      animateIn="fadeInLeft"
+                      duration={2.4}
+                      animateOnce={true}
+                      initiallyVisible={true}>
+                      <article>
+                        <div
+                          className={`${classes.timeline_icon} ${classes.timeline_icon_4}`}>
+                          <MdWork />
+                        </div>
+                        <div className={classes.timeline_entry_inner}>
+                          <div className={classes.timeline_icon_3 || classes.color_none}></div>
+                        </div>
+                        <div className={classes.label}>
+                          <h2>Salesforce</h2>
+                          <ul>
+                            <li>Centralized fine-grained authorization for 20+ metadata APIs with annotation-driven Spring AOP.</li>
+                            <li>Migrated 400+ automated API tests, strengthening regression coverage and CI reliability.</li>
+                            <li>Processed 10K+ asynchronous jobs with Kafka and maintained audit history for traceability.</li>
+                            <li>Resolved production incidents through root-cause analysis and lasting cross-team fixes.</li>
+                          </ul>
+                        </div>
+                      </article>
+                    </ScrollAnimation>
+                    <ScrollAnimation
+                      offset={0}
+                      animateIn="fadeInLeft"
+                      duration={2.4}
+                      animateOnce={true}
+                      initiallyVisible={true}>
+                      <article>
+                        <div
+                          className={`${classes.timeline_icon} ${classes.timeline_icon_4}`}>
+                          <MdWork />
+                        </div>
+                        <div className={classes.timeline_entry_inner}>
+                          <div className={classes.timeline_icon_3 || classes.color_none}></div>
+                        </div>
+                        <div className={classes.label}>
+                          <h2>Target — Software Engineer, Retail Tech</h2>
+                          <ul>
+                            <li>Building dependable retail technology across commerce workflows.</li>
+                            <li>Focusing on resilient services, reliable data flows, and improved operational visibility.</li>
+                          </ul>
                         </div>
                       </article>
                     </ScrollAnimation>
